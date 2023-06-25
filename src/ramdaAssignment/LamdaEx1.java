@@ -1,11 +1,11 @@
 package ramdaAssignment;
 @FunctionalInterface
-public
+
 interface MyFunction {
 
     void run(); //public abstract void run();
 }
-class LamdaEx1 {
+public class LamdaEx1 {
     static void excute (MyFunction f) { //매개변수의 타입이 MyFunction인 메서드
         f.run();
     }
