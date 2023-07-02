@@ -21,5 +21,22 @@ public class InetAddress01 {
 //@1-3. 하나의 호스트가 여러 개의 IP를 가지고 있는 경우
         InetAddress[] ia6 = InetAddress.getAllByName("www.naver.com"); System.out.println(Arrays.toString(ia6));
         System.out.println();
+
+
+
+        //#2. InetAddress 메서드
+//@2-1. 호스트와 IP 알아내기
+        byte[] address = ia1.getAddress();
+        System.out.println(Arrays.toString(address));
+        System.out.println(ia1.getHostAddress());
+        System.out.println(ia1.getHostName());
+//@2-2. 저장 주소의 특징 알아내기
+        System.out.println(ia1.isReachable(1000));
+        System.out.println(ia1.isLoopbackAddress());
+        System.out.println(ia1.isMulticastAddress());
+        System.out.println(InetAddress.getByAddress(new byte[] {127,0,0,1}).isLoopbackAddress()); System.out.println(InetAddress.getByAddress(new byte[] {(byte)225,(byte)225,(byte)225,(byte)225}).isMulticastAddress());
+
+
+
     }
 }
