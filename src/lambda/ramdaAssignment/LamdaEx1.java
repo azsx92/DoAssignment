@@ -1,4 +1,4 @@
-package ramdaAssignment;
+package lambda.ramdaAssignment;
 @FunctionalInterface
 
 interface MyFunction {

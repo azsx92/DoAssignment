@@ -1,4 +1,4 @@
-package sesacAssignment2;
+package lambda.sesacAssignment2;
 
 
 

@@ -1,4 +1,4 @@
-package sesacAssignment;
+package lambda.sesacAssignment;
 
 interface A {
 	void abc();

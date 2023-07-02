@@ -1,4 +1,4 @@
-package ramdaAssignment;
+package lambda.ramdaAssignment;
 
 import java.util.ArrayList;
 import java.util.HashMap;
